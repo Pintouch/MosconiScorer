@@ -45,6 +45,7 @@ class FileHelpers {
             }
         } else {
             // User clicked on "Cancel"
+            NSApplication.shared().terminate(self)
             return
         }
 

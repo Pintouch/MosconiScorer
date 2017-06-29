@@ -96,6 +96,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad () {
         super.viewDidLoad()
+        UserDefaults.standard.set(nil, forKey: "rootPath")
         if let asset = NSDataAsset(name:"Buzzer"){
             do {
                 try self.audioPlayer = AVAudioPlayer(data:asset.data, fileTypeHint:"wav")
