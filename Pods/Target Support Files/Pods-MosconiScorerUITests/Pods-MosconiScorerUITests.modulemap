@@ -1,0 +1,6 @@
+framework module Pods_MosconiScorerUITests {
+  umbrella header "Pods-MosconiScorerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

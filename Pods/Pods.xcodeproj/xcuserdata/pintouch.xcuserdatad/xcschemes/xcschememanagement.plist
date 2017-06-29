@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MosconiScorer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MosconiScorerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MosconiScorerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SSZipArchive.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>38146A752B01B6DE9B846B702907CACB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90FFEC67338BC5A6F3D39A5623049AA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9990643AA514CFE1742F348F3A62D0F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE2C563005475502C0CDE95C3ACAB70D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

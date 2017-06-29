@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B64C2B0D1E0D690A463140 /* Pods_MosconiScorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445345D138D93FBA623615A4 /* Pods_MosconiScorerTests.framework */; };
 		C3824B9E1EFA50B000534C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3824B9D1EFA50B000534C6A /* AppDelegate.swift */; };
 		C3824BA01EFA50B000534C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3824B9F1EFA50B000534C6A /* ViewController.swift */; };
-		C3824BA21EFA50B000534C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3824BA11EFA50B000534C6A /* Assets.xcassets */; };
 		C3824BA51EFA50B000534C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3824BA31EFA50B000534C6A /* Main.storyboard */; };
 		C3824BB01EFA50B000534C6A /* MosconiScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3824BAF1EFA50B000534C6A /* MosconiScorerTests.swift */; };
 		C3824BBB1EFA50B000534C6A /* MosconiScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3824BBA1EFA50B000534C6A /* MosconiScorerUITests.swift */; };
+		C3824BC91EFBA08600534C6A /* FileHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3824BC81EFBA08600534C6A /* FileHelpers.swift */; };
+		C3A319501EFD1E8A00B26DDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A3194F1EFD1E8A00B26DDB /* AVFoundation.framework */; };
+		C3B7DD0D1F04FEA5004D8746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B7DD0C1F04FEA5004D8746 /* Assets.xcassets */; };
+		C3B7DD0F1F04FEE3004D8746 /* Mosconi.zip in Resources */ = {isa = PBXBuildFile; fileRef = C3B7DD0E1F04FEE3004D8746 /* Mosconi.zip */; };
+		C3B8E0CB1EFCDE2200F8906F /* ActionsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8E0CA1EFCDE2200F8906F /* ActionsHelpers.swift */; };
+		C3F0AB2B1F0029CF00CA0ABE /* VisualizerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0AB2A1F0029CF00CA0ABE /* VisualizerController.swift */; };
+		F2CEF04264E5CA8BA15D5FFD /* Pods_MosconiScorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67C000373BEF7A784549CFC /* Pods_MosconiScorer.framework */; };
+		FDB03E18FEDA11B2D44CBF60 /* Pods_MosconiScorerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6590A4E616FEC873879C0CB8 /* Pods_MosconiScorerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CFA26C662062E10A88865D /* Pods-MosconiScorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorerTests/Pods-MosconiScorerTests.release.xcconfig"; sourceTree = "<group>"; };
+		06F930D6382B2E6979D6DA87 /* Pods-MosconiScorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorerTests/Pods-MosconiScorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		376F401184FE2D22A2C60E8B /* Pods-MosconiScorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorer/Pods-MosconiScorer.release.xcconfig"; sourceTree = "<group>"; };
+		445345D138D93FBA623615A4 /* Pods_MosconiScorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosconiScorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590A4E616FEC873879C0CB8 /* Pods_MosconiScorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosconiScorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE1B2AD9687C548FBAE19B6 /* Pods-MosconiScorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorerUITests/Pods-MosconiScorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0FE726EB3B007DC5FFBB509 /* Pods-MosconiScorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorerUITests/Pods-MosconiScorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B67C000373BEF7A784549CFC /* Pods_MosconiScorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosconiScorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3824B9A1EFA50B000534C6A /* MosconiScorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosconiScorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3824B9D1EFA50B000534C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3824B9F1EFA50B000534C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3824BA11EFA50B000534C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3824BA41EFA50B000534C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3824BA61EFA50B000534C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3824BAB1EFA50B000534C6A /* MosconiScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosconiScorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +60,14 @@
 		C3824BB61EFA50B000534C6A /* MosconiScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosconiScorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3824BBA1EFA50B000534C6A /* MosconiScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosconiScorerUITests.swift; sourceTree = "<group>"; };
 		C3824BBC1EFA50B000534C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3824BC81EFBA08600534C6A /* FileHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelpers.swift; sourceTree = "<group>"; };
+		C3A3194F1EFD1E8A00B26DDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C3B7DD0C1F04FEA5004D8746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3B7DD0E1F04FEE3004D8746 /* Mosconi.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Mosconi.zip; sourceTree = "<group>"; };
+		C3B8E0CA1EFCDE2200F8906F /* ActionsHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsHelpers.swift; sourceTree = "<group>"; };
+		C3DF2D711F04EA0900EA7E7F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C3F0AB2A1F0029CF00CA0ABE /* VisualizerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizerController.swift; sourceTree = "<group>"; };
+		E60805C291F9ABA7FBA502A1 /* Pods-MosconiScorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosconiScorer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosconiScorer/Pods-MosconiScorer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A319501EFD1E8A00B26DDB /* AVFoundation.framework in Frameworks */,
+				F2CEF04264E5CA8BA15D5FFD /* Pods_MosconiScorer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B64C2B0D1E0D690A463140 /* Pods_MosconiScorerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB03E18FEDA11B2D44CBF60 /* Pods_MosconiScorerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E04DBE8DCA8C210EE2D2D96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60805C291F9ABA7FBA502A1 /* Pods-MosconiScorer.debug.xcconfig */,
+				376F401184FE2D22A2C60E8B /* Pods-MosconiScorer.release.xcconfig */,
+				06F930D6382B2E6979D6DA87 /* Pods-MosconiScorerTests.debug.xcconfig */,
+				03CFA26C662062E10A88865D /* Pods-MosconiScorerTests.release.xcconfig */,
+				A0FE726EB3B007DC5FFBB509 /* Pods-MosconiScorerUITests.debug.xcconfig */,
+				6BE1B2AD9687C548FBAE19B6 /* Pods-MosconiScorerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C3824B911EFA50AF00534C6A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,8 @@
 				C3824BAE1EFA50B000534C6A /* MosconiScorerTests */,
 				C3824BB91EFA50B000534C6A /* MosconiScorerUITests */,
 				C3824B9B1EFA50B000534C6A /* Products */,
+				C3A3194E1EFD1E8900B26DDB /* Frameworks */,
+				0E04DBE8DCA8C210EE2D2D96 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +137,15 @@
 		C3824B9C1EFA50B000534C6A /* MosconiScorer */ = {
 			isa = PBXGroup;
 			children = (
+				C3B7DD0E1F04FEE3004D8746 /* Mosconi.zip */,
+				C3B7DD0C1F04FEA5004D8746 /* Assets.xcassets */,
 				C3824B9D1EFA50B000534C6A /* AppDelegate.swift */,
 				C3824B9F1EFA50B000534C6A /* ViewController.swift */,
-				C3824BA11EFA50B000534C6A /* Assets.xcassets */,
 				C3824BA31EFA50B000534C6A /* Main.storyboard */,
 				C3824BA61EFA50B000534C6A /* Info.plist */,
+				C3824BC81EFBA08600534C6A /* FileHelpers.swift */,
+				C3B8E0CA1EFCDE2200F8906F /* ActionsHelpers.swift */,
+				C3F0AB2A1F0029CF00CA0ABE /* VisualizerController.swift */,
 			);
 			path = MosconiScorer;
 			sourceTree = "<group>";
@@ -122,6 +168,18 @@
 			path = MosconiScorerUITests;
 			sourceTree = "<group>";
 		};
+		C3A3194E1EFD1E8900B26DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF2D711F04EA0900EA7E7F /* libz.tbd */,
+				C3A3194F1EFD1E8A00B26DDB /* AVFoundation.framework */,
+				B67C000373BEF7A784549CFC /* Pods_MosconiScorer.framework */,
+				445345D138D93FBA623615A4 /* Pods_MosconiScorerTests.framework */,
+				6590A4E616FEC873879C0CB8 /* Pods_MosconiScorerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3824BBF1EFA50B000534C6A /* Build configuration list for PBXNativeTarget "MosconiScorer" */;
 			buildPhases = (
+				5FD20846FA7062E0C5D13BD3 /* [CP] Check Pods Manifest.lock */,
 				C3824B961EFA50AF00534C6A /* Sources */,
 				C3824B971EFA50AF00534C6A /* Frameworks */,
 				C3824B981EFA50AF00534C6A /* Resources */,
+				C1B2D01EEF5B4AB5FB0BEFC9 /* [CP] Embed Pods Frameworks */,
+				82D2DB3155EA45FB79DB7371 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3824BC21EFA50B000534C6A /* Build configuration list for PBXNativeTarget "MosconiScorerTests" */;
 			buildPhases = (
+				C818F67FA0A2263F248C29E2 /* [CP] Check Pods Manifest.lock */,
 				C3824BA71EFA50B000534C6A /* Sources */,
 				C3824BA81EFA50B000534C6A /* Frameworks */,
 				C3824BA91EFA50B000534C6A /* Resources */,
+				AAFB705185B80871502BC3C5 /* [CP] Embed Pods Frameworks */,
+				8816320EBBB6BA9D18B7DD79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3824BC51EFA50B000534C6A /* Build configuration list for PBXNativeTarget "MosconiScorerUITests" */;
 			buildPhases = (
+				4B975385CF9AED4CA9949064 /* [CP] Check Pods Manifest.lock */,
 				C3824BB21EFA50B000534C6A /* Sources */,
 				C3824BB31EFA50B000534C6A /* Frameworks */,
 				C3824BB41EFA50B000534C6A /* Resources */,
+				7166E4562C4F39ACD44A97D6 /* [CP] Embed Pods Frameworks */,
+				23A8F070C50CED7D4B010EAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3824BA21EFA50B000534C6A /* Assets.xcassets in Resources */,
+				C3B7DD0D1F04FEA5004D8746 /* Assets.xcassets in Resources */,
 				C3824BA51EFA50B000534C6A /* Main.storyboard in Resources */,
+				C3B7DD0F1F04FEE3004D8746 /* Mosconi.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +318,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23A8F070C50CED7D4B010EAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorerUITests/Pods-MosconiScorerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B975385CF9AED4CA9949064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD20846FA7062E0C5D13BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7166E4562C4F39ACD44A97D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorerUITests/Pods-MosconiScorerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D2DB3155EA45FB79DB7371 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorer/Pods-MosconiScorer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8816320EBBB6BA9D18B7DD79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorerTests/Pods-MosconiScorerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFB705185B80871502BC3C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorerTests/Pods-MosconiScorerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B2D01EEF5B4AB5FB0BEFC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosconiScorer/Pods-MosconiScorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C818F67FA0A2263F248C29E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3824B961EFA50AF00534C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3824BC91EFBA08600534C6A /* FileHelpers.swift in Sources */,
 				C3824BA01EFA50B000534C6A /* ViewController.swift in Sources */,
 				C3824B9E1EFA50B000534C6A /* AppDelegate.swift in Sources */,
+				C3F0AB2B1F0029CF00CA0ABE /* VisualizerController.swift in Sources */,
+				C3B8E0CB1EFCDE2200F8906F /* ActionsHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +606,13 @@
 		};
 		C3824BC01EFA50B000534C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60805C291F9ABA7FBA502A1 /* Pods-MosconiScorer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MosconiScorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.dashpool.MosconiScorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -410,11 +621,13 @@
 		};
 		C3824BC11EFA50B000534C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376F401184FE2D22A2C60E8B /* Pods-MosconiScorer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MosconiScorer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.dashpool.MosconiScorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -423,6 +636,7 @@
 		};
 		C3824BC31EFA50B000534C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F930D6382B2E6979D6DA87 /* Pods-MosconiScorerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -438,6 +652,7 @@
 		};
 		C3824BC41EFA50B000534C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CFA26C662062E10A88865D /* Pods-MosconiScorerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,6 +668,7 @@
 		};
 		C3824BC61EFA50B000534C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FE726EB3B007DC5FFBB509 /* Pods-MosconiScorerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -467,6 +683,7 @@
 		};
 		C3824BC71EFA50B000534C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE1B2AD9687C548FBAE19B6 /* Pods-MosconiScorerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -498,6 +715,7 @@
 				C3824BC11EFA50B000534C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3824BC21EFA50B000534C6A /* Build configuration list for PBXNativeTarget "MosconiScorerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +724,7 @@
 				C3824BC41EFA50B000534C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3824BC51EFA50B000534C6A /* Build configuration list for PBXNativeTarget "MosconiScorerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +733,7 @@
 				C3824BC71EFA50B000534C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

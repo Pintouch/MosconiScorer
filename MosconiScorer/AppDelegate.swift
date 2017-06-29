@@ -11,7 +11,13 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    
+    @IBAction func ChooseFolderClick(_ sender: Any) {
+        if let vc = NSApplication.shared().mainWindow?.contentViewController as! ViewController? {
+            FileHelpers.chooseFolder(viewController: vc)
+        }
+       // FileHelpers.chooseFolder(viewController: self.find)
+            }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
